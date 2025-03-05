@@ -271,6 +271,23 @@ a{
     text-align: center;
 }
 
+.about-content{
+    display: flex;
+
+    flex-flow: column nowrap;
+
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-card{
+    border: solid 2px;
+
+    padding: 1rem;
+    border-radius: 10px;
+}
+
 /* footer */
 
 footer{
