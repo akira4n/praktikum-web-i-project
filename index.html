@@ -14,6 +14,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/sweetalert2@11.17.2/dist/sweetalert2.min.css"
+      integrity="sha256-SCRy3fXoOamBaidKByHs9iJVLYJ65R/v6ycZNN4JhmE="
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <!-- navbar start -->
@@ -69,13 +76,13 @@
 
         <div class="destination-content">
           <div class="destination-image">
-            <div class="destination-card">
+            <div class="destination-card" id="bromo">
               <img src="assets/img/destination/bromo.jpg" alt="bromo" />
               <div class="destination-text">
                 <p>Bromo Mt.</p>
               </div>
             </div>
-            <div class="destination-card">
+            <div class="destination-card" id="raja-ampat">
               <img
                 src="assets/img/destination/raja-ampat.jpg"
                 alt="raja ampat"
@@ -84,13 +91,13 @@
                 <p>Raja Ampat</p>
               </div>
             </div>
-            <div class="destination-card">
+            <div class="destination-card" id="sumbawa">
               <img src="assets/img/destination/sumbawa.jpg" alt="sumbawa" />
               <div class="destination-text">
                 <p>Sumbawa</p>
               </div>
             </div>
-            <div class="destination-card">
+            <div class="destination-card" id="borobudur">
               <img src="assets/img/destination/borobudur.jpg" alt="borobudur" />
               <div class="destination-text">
                 <p>Borobudur</p>
@@ -172,8 +179,11 @@
 
       <section class="about__container" id="about">
         <div class="about-title">
-          <p>Get to know us more.</p>
+          <p>Get to know us more</p>
           <h1>About Us</h1>
+        </div>
+        <div class="about-content">
+          <div></div>
         </div>
       </section>
     </main>
@@ -206,6 +216,12 @@
       </div>
     </footer>
     <!-- footer end -->
+
     <script src="assets/js/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/sweetalert2@11.17.2/dist/sweetalert2.all.min.js"
+      integrity="sha256-lCHT/LfuZjRp+PdpWns/vKrnSn367D/g1E6Ju18wiH0="
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
